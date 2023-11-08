@@ -1,0 +1,411 @@
+[
+  {
+    "provider_id": 1,
+    "name": "{provider.salesforce}",
+    "description": "{provider.salesforce.description}",
+    "api_url": "https://eu8.salesforce.com/00Q/o",
+    "logo": "https://cdn.nexoya.io/img/00_provider_salesforce-icon.svg",
+    "logo_alt": "{provider.salesforce.logoAlt}"
+  },
+  {
+    "provider_id": 2,
+    "name": "{provider.google.analytics}",
+    "description": "{provider.google.analytics.description}",
+    "api_url": "https://analytics.google.com/analytics/web/",
+    "logo": "https://cdn.nexoya.io/img/00_provider_google_analytics-icon.svg",
+    "logo_alt": "{provider.google.analytics.logoAlt}",
+    "filterable": true
+  },
+  {
+    "provider_id": 3,
+    "name": "{provider.mailchimp}",
+    "description": "{provider.mailchimp.description}",
+    "api_url": "https://us18.admin.mailchimp.com",
+    "logo": "https://cdn.nexoya.io/img/00_provider_mailchimp-icon-white.svg",
+    "logo_alt": "{provider.mailchimp.logoAlt}",
+    "no_initial": true,
+    "filterable": true
+  },
+  {
+    "provider_id": 4,
+    "name": "{provider.hubspot}",
+    "description": "{provider.hubspot.description}",
+    "api_url": "https://app.hubspot.com",
+    "logo": "https://cdn.nexoya.io/img/00_provider_hubspot-icon.svg",
+    "logo_alt": "{provider.hubspot.logoAlt}",
+    "filterable": true
+  },
+  {
+    "provider_id": 5,
+    "name": "{provider.twitter}",
+    "description": "{provider.twitter.description}",
+    "api_url": "https://app.twitter.com",
+    "logo": "https://cdn.nexoya.io/img/00_provider_twitter-icon.svg",
+    "logo_alt": "{provider.twitter.logoAlt}",
+    "no_initial": true
+  },
+  {
+    "provider_id": 6,
+    "name": "{provider.instagram}",
+    "description": "{provider.instagram.description}",
+    "api_url": "https://app.instagram.com",
+    "logo": "https://cdn.nexoya.io/img/00_provider_instagram-icon.svg",
+    "logo_alt": "{provider.instagram.logoAlt}",
+    "no_initial": true
+  },
+  {
+    "provider_id": 7,
+    "name": "{provider.semrush}",
+    "description": "{provider.semrush.description}",
+    "api_url": "https://api.semrush.com",
+    "logo": "https://cdn.nexoya.io/img/00_provider_semrush-horiz.svg",
+    "logo_alt": "{provider.semrush.logoAlt}",
+    "no_initial": true
+  },
+  {
+    "provider_id": 8,
+    "name": "{provider.gplay}",
+    "description": "{provider.gplay.description}",
+    "api_url": "https://play.google.com/store/apps/details",
+    "logo": "https://cdn.nexoya.io/img/00_provider_google_play-icon.svg",
+    "logo_alt": "{provider.gplay.logoAlt}",
+    "delayed_days": 2
+  },
+  {
+    "provider_id": 9,
+    "name": "{provider.appstore}",
+    "description": "{provider.appstore.description}",
+    "api_url": "https://itunes.apple.com/lookup",
+    "logo": "https://cdn.nexoya.io/img/00_provider_app_store-icon.svg",
+    "logo_alt": "{provider.appstore.logoAlt}"
+  },
+  {
+    "provider_id": 10,
+    "name": "{provider.adunittech}",
+    "description": "{provider.adunittech.description}",
+    "api_url": "https://api.adunit.tech/",
+    "logo": "https://cdn.nexoya.io/img/00_provider_adunit-icon.svg",
+    "logo_alt": "{provider.adunittech.logoAlt}"
+  },
+  {
+    "provider_id": 11,
+    "name": "{provider.mandrill}",
+    "description": "{provider.mandrill.description}",
+    "api_url": "https://mandrillapp.com/api/",
+    "logo": "https://cdn.nexoya.io/img/00_provider_mandrill-icon.svg",
+    "logo_alt": "{provider.mandrill.logoAlt}",
+    "no_initial": true,
+    "filterable": true
+  },
+  {
+    "provider_id": 12,
+    "name": "{provider.facebook}",
+    "description": "{provider.facebook.description}",
+    "api_url": "https://graph.facebook.com/",
+    "logo": "https://cdn.nexoya.io/img/00_provider_meta-icon.svg",
+    "logo_alt": "{provider.facebook.logoAlt}",
+    "filterable": true
+  },
+  {
+    "provider_id": 13,
+    "name": "{provider.linkedin}",
+    "description": "{provider.linkedin.description}",
+    "api_url": "https://api.linkedin.com/",
+    "logo": "https://cdn.nexoya.io/img/00_provider_linkedin-icon.svg",
+    "logo_alt": "{provider.linkedin.logoAlt}",
+    "filterable": true
+  },
+  {
+    "provider_id": 14,
+    "name": "{provider.mailgun}",
+    "description": "{provider.mailgun.description}",
+    "api_url": "https://api.mailgun.net/",
+    "logo": "https://cdn.nexoya.io/img/00_provider_mailgun-icon.svg",
+    "logo_alt": "{provider.mailgun.logoAlt}"
+  },
+  {
+    "provider_id": 15,
+    "name": "{provider.adition}",
+    "description": "{provider.adition.description}",
+    "api_url": "https://soa.adition.com/soa/",
+    "logo": "https://cdn.nexoya.io/img/00_provider_adition_technologies-horiz.png",
+    "logo_alt": "{provider.adition.logoAlt}"
+  },
+  {
+    "provider_id": 16,
+    "name": "{provider.adobe.analytics}",
+    "description": "{provider.adobe.analytics.description}",
+    "api_url": "https://analytics.adobe.io/api/",
+    "logo": "https://cdn.nexoya.io/img/00_provider_adobe_analytics-icon.svg",
+    "logo_alt": "{provider.adobe.analytics.logoAlt}"
+  },
+  {
+    "provider_id": 17,
+    "name": "{provider.blink}",
+    "description": "{provider.blink.description}",
+    "api_url": "https://app.bl.ink",
+    "logo": "https://cdn.nexoya.io/img/00_provider_blink-horiz.png",
+    "logo_alt": "{provider.blink.logoAlt}",
+    "no_initial": true
+  },
+  {
+    "provider_id": 18,
+    "name": "{provider.pipedrive}",
+    "description": "{provider.pipedrive.description}",
+    "api_url": "https://api.pipedrive.com/v1",
+    "logo": "https://cdn.nexoya.io/img/00_provider_pipedrive-horiz-white.svg",
+    "logo_alt": "{provider.pipedrive.logoAlt}",
+    "no_initial": true
+  },
+  {
+    "provider_id": 19,
+    "name": "{provider.thehouse}",
+    "description": "{provider.thehouse.description}",
+    "api_url": "https://opt.thehouse.agency/api",
+    "logo": "https://cdn.nexoya.io/img/00_provider_house-agency-white.svg",
+    "logo_alt": "{provider.thehouse.logoAlt}",
+    "no_initial": true
+  },
+  {
+    "provider_id": 20,
+    "name": "{provider.mailxpert}",
+    "description": "{provider.mailxpert.description}",
+    "api_url": "https://api.mailxpert.ch/v2.0",
+    "logo": "https://cdn.nexoya.io/img/00_provider_mailxpert-horiz.svg",
+    "logo_alt": "{provider.mailxpert.logoAlt}",
+    "filterable": true
+  },
+  {
+    "provider_id": 21,
+    "name": "{provider.youtube}",
+    "description": "{provider.youtube.description}",
+    "api_url": "https://youtubeanalytics.googleapis.com",
+    "logo": "https://cdn.nexoya.io/img/00_provider_youtube-icon.svg",
+    "logo_alt": "{provider.youtube.logoAlt}",
+    "filterable": true,
+    "delayed_days": 2
+  },
+  {
+    "provider_id": 22,
+    "name": "{provider.instagramV2}",
+    "description": "{provider.instagramV2.description}",
+    "api_url": "https://graph.facebook.com/v3.3/",
+    "logo": "https://cdn.nexoya.io/img/00_provider_instagram-icon.svg",
+    "logo_alt": "{provider.instagramV2.logoAlt}",
+    "filterable": true
+  },
+  {
+    "provider_id": 23,
+    "name": "{provider.google.searchconsole}",
+    "description": "{provider.google.searchconsole.description}",
+    "api_url": "https://www.googleapis.com/webmasters/v3/",
+    "logo": "https://cdn.nexoya.io/img/00_provider_google-search-console.svg",
+    "logo_alt": "{provider.searchconsole.logoAlt}",
+    "filterable": true,
+    "delayed_days": 3
+  },
+  {
+    "provider_id": 24,
+    "name": "{provider.google.ads}",
+    "description": "{provider.google.ads.description}",
+    "api_url": "https://graph.facebook.com/v3.3/",
+    "logo": "https://cdn.nexoya.io/img/00_provider_google_ads-icon.svg",
+    "logo_alt": "{provider.googleAds.logoAlt}",
+    "filterable": true
+  },
+  {
+    "provider_id": 25,
+    "name": "{provider.twitterV2}",
+    "description": "{provider.twitterV2.description}",
+    "api_url": "https://app.twitter.com",
+    "logo": "https://cdn.nexoya.io/img/00_provider_x-icon.svg",
+    "logo_alt": "{provider.twitterV2.logoAlt}",
+    "filterable": true
+  },
+  {
+    "provider_id": 26,
+    "name": "{provider.customimport}",
+    "description": "{provider.customimport.description}",
+    "api_url": "https://www.nexoya.io",
+    "logo": "https://cdn.nexoya.io/img/00_provider_customimport.svg",
+    "logo_alt": "{provider.customimport.logoAlt}"
+  },
+  {
+    "provider_id": 27,
+    "name": "{provider.sap.mc}",
+    "description": "{provider.sap.mc.description}",
+    "api_url": "https://my300655.s4hana.ondemand.com/sap/opu/odata/sap",
+    "logo": "https://cdn.nexoya.io/img/00_provider_sap-icon.svg",
+    "logo_alt": "{provider.sap.mc.logoAlt}"
+  },
+  {
+    "provider_id": 28,
+    "name": "{provider.salesforce.marketingcloud}",
+    "description": "{provider.salesforce.marketingcloud.description}",
+    "api_url": "https://www.nexoya.io",
+    "logo": "https://cdn.nexoya.io/img/00_provider_salesforce-icon.svg",
+    "logo_alt": "{provider.salesforce_marketingcloud.logoAlt}"
+  },
+  {
+    "provider_id": 29,
+    "name": "{provider.weatherstack}",
+    "description": "{provider.weatherstack.description}",
+    "api_url": "https://www.nexoya.io",
+    "logo": "https://cdn.nexoya.io/img/00_provider_weather.svg",
+    "logo_alt": "{provider.weatherstack.logoAlt}",
+    "filterable": true
+  },
+  {
+    "provider_id": 30,
+    "name": "{provider.exchangeratesapi}",
+    "description": "{provider.exchangeratesapi.description}",
+    "api_url": "https://www.nexoya.io",
+    "logo": "https://cdn.nexoya.io/img/00_provider_exchangeratesapi.svg",
+    "logo_alt": "{provider.exchangeratesapi.logoAlt}",
+    "filterable": true
+  },
+  {
+    "provider_id": 31,
+    "name": "{provider.gotowebinar}",
+    "description": "{provider.gotowebinar.description}",
+    "api_url": "https://www.nexoya.io",
+    "logo": "https://cdn.nexoya.io/img/00_provider_gotowebinar.svg",
+    "logo_alt": "{provider.gotowebinar.logoAlt}",
+    "filterable": true
+  },
+  {
+    "provider_id": 32,
+    "name": "{provider.googledcm}",
+    "description": "{provider.googledcm.description}",
+    "api_url": "https://www.nexoya.io",
+    "logo": "https://cdn.nexoya.io/img/00_provider_googledcm.svg",
+    "logo_alt": "{provider.googledcm.logoAlt}",
+    "filterable": true
+  },
+  {
+    "provider_id": 33,
+    "name": "{provider.salesforce.salescloud}",
+    "description": "{provider.salesforce.salescloud.description}",
+    "api_url": "https://www.nexoya.io",
+    "logo": "https://cdn.nexoya.io/img/00_provider_salesforce-icon.svg",
+    "logo_alt": "{provider.salesforce_marketingcloud.logoAlt}",
+    "filterable": true
+  },
+  {
+    "provider_id": 34,
+    "name": "{provider.googledv360}",
+    "description": "{provider.googledv360.description}",
+    "api_url": "https://www.nexoya.io",
+    "logo": "https://cdn.nexoya.io/img/00_provider_googledv360.svg",
+    "logo_alt": "{provider.googledv360.logoAlt}",
+    "filterable": true
+  },
+  {
+    "provider_id": 35,
+    "name": "{provider.bing}",
+    "description": "{provider.bing.description}",
+    "api_url": "https://www.nexoya.io",
+    "logo": "https://cdn.nexoya.io/img/00_provider_bing.png",
+    "logo_alt": "{provider.bing.logoAlt}",
+    "filterable": true
+  },
+  {
+    "provider_id": 36,
+    "name": "{provider.pinterest}",
+    "description": "{provider.pinterest.description}",
+    "api_url": "https://www.nexoya.io",
+    "logo": "https://cdn.nexoya.io/img/00_provider_pinterest.png",
+    "logo_alt": "{provider.pinterest.logoAlt}",
+    "filterable": true
+  },
+  {
+    "provider_id": 37,
+    "name": "{provider.taboola}",
+    "description": "{provider.taboola.description}",
+    "api_url": "https://www.nexoya.io",
+    "logo": "https://cdn.nexoya.io/img/00_provider_taboola.png",
+    "logo_alt": "{provider.taboola.logoAlt}",
+    "filterable": true
+  },
+  {
+    "provider_id": 38,
+    "name": "{provider.siteimprove}",
+    "description": "{provider.siteimprove.description}",
+    "api_url": "https://www.nexoya.io",
+    "logo": "https://cdn.nexoya.io/img/00_provider_siteimprove.png",
+    "logo_alt": "{provider.siteimprove.logoAlt}",
+    "filterable": true
+  },
+  {
+    "provider_id": 42,
+    "name": "{provider.data_generator}",
+    "description": "{provider.data_generator.description}",
+    "api_url": "https://www.nexoya.io",
+    "logo": "https://cdn.nexoya.io/img/00_data_enerator.png",
+    "logo_alt": "{provider.data_generator.logoAlt}"
+  },
+  {
+    "provider_id": 43,
+    "name": "{provider.mediamath}",
+    "description": "{provider.mediamath.description}",
+    "api_url": "https://www.nexoya.io",
+    "logo": "https://cdn.nexoya.io/img/00_provider_mediamath.png",
+    "logo_alt": "{provider.mediamath.logoAlt}",
+    "filterable": true
+  },
+  {
+    "provider_id": 44,
+    "name": "{provider.google.analytics4}",
+    "description": "{provider.google.analytics4.description}",
+    "api_url": "https://analytics.google.com/analytics/web/",
+    "logo": "https://cdn.nexoya.io/img/00_provider_google_analytics-icon.svg",
+    "logo_alt": "{provider.google.analytics4.logoAlt}",
+    "filterable": true
+  },
+  {
+    "provider_id": 45,
+    "name": "{provider.tiktokV1}",
+    "description": "{provider.tiktokV1.description}",
+    "api_url": "https://business-api.tiktok.com/open_api/v1.3/",
+    "logo": "https://cdn.nexoya.io/img/00_provider_tiktok.svg",
+    "filterable": true
+  },
+  {
+    "provider_id": 46,
+    "name": "{provider.reddit}",
+    "description": "{provider.reddit.description}",
+    "logo": "https://cdn.nexoya.io/img/00_provider_reddit.svg"
+  },
+  {
+    "provider_id": 47,
+    "name": "{provider.outbrain}",
+    "description": "{provider.outbrain.description}",
+    "api_url": "https://api.outbrain.com/amplify/v0.1/",
+    "logo": "https://cdn.nexoya.io/img/00_provider_outbrain.png",
+    "logo_alt": "{provider.outbrain.logoAlt}"
+  },
+  {
+    "provider_id": 48,
+    "name": "{provider.criteo}",
+    "description": "{provider.criteo.description}",
+    "logo": "https://cdn.nexoya.io/img/00_provider_criteo.svg"
+  },
+  {
+    "provider_id": 49,
+    "name": "{provider.googlesa360}",
+    "description": "{provider.googlesa360.description}",
+    "logo": "https://cdn.nexoya.io/img/00_provider_googlesa360.png"
+  },
+  {
+    "provider_id": 100,
+    "name": "{provider.customkpi}",
+    "description": "{provider.customkpi.description}",
+    "api_url": "https://www.nexoya.io",
+    "logo": "https://cdn.nexoya.io/img/00_provider_customkpi-icon.svg",
+    "logo_alt": "{provider.customkpi.logoAlt}"
+  },
+  {
+    "provider_id": 101,
+    "name": "internal dummy provider"
+  }
+]
