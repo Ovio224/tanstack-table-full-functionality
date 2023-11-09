@@ -196,9 +196,13 @@ const metricColumn = (parentColName: string): ColumnDef<MetricChange>[] => {
       accessorKey: parentColName + "_value",
       accessorFn: (row) => row.value,
       header: () => "Value",
-      // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-      //   @ts-expect-error
-      cell: (info) => new Intl.NumberFormat().format(info.getValue()),
+      cell: (info) =>
+        Intl.NumberFormat("de-CH", {
+          style: "currency",
+          currency: "CHF",
+          // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+          //   @ts-expect-error
+        }).format(info.getValue()),
     },
     {
       id: parentColName + "_percentage",
@@ -302,6 +306,7 @@ function App() {
   const [columnVisibility, setColumnVisibility] = React.useState({});
   const [globalFilter, setGlobalFilter] = React.useState("");
   const [columnResizeMode] = React.useState<ColumnResizeMode>("onChange");
+  const [columnPinning, setColumnPinning] = React.useState({});
   // Create the table and pass your options
   const table = useReactTable({
     debugTable: true,
@@ -315,6 +320,7 @@ function App() {
       columnFilters,
       globalFilter,
       columnVisibility,
+      columnPinning,
     },
     filterFns: {
       fuzzy: fuzzyFilter,
@@ -328,6 +334,7 @@ function App() {
     getFacetedMinMaxValues: getFacetedMinMaxValues(),
 
     onSortingChange: setSorting,
+    onColumnPinningChange: setColumnPinning,
     onColumnFiltersChange: setColumnFilters,
     onGlobalFilterChange: setGlobalFilter,
     onColumnVisibilityChange: setColumnVisibility,
@@ -357,7 +364,9 @@ function App() {
             Toggle All
           </label>
         </div>
+        <pre>{JSON.stringify(table.getState().columnPinning, null, 2)}</pre>
         {table.getAllLeafColumns().map((column) => {
+          console.debug(column.getIsPinned());
           return (
             <div key={column.id} className="px-1">
               <label>
@@ -369,6 +378,19 @@ function App() {
                   }}
                 />{" "}
                 {column.id}
+              </label>
+              <label>
+                <input
+                  {...{
+                    type: "checkbox",
+                    checked: column.getIsPinned() === "left",
+                    onChange: () =>
+                      column.pin(
+                        column.getIsPinned() === "left" ? false : "left"
+                      ),
+                  }}
+                />{" "}
+                pin
               </label>
             </div>
           );
